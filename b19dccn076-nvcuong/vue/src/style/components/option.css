@@ -1,0 +1,7 @@
+.option{
+    width: 100%;
+    background-image: url(../../assets/icon/check.png);
+    background-repeat: no-repeat;
+    background-position: 10 center;
+    background-size: 16px 16px;
+}

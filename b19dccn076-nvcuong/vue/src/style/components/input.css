@@ -1,0 +1,47 @@
+.m-input{
+    height: 40px;
+    padding-left: 16px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    line-height: 11px;
+    color: #000;
+    font-size: 13px;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+.m-input::placeholder{
+    color: #bbb;
+}
+
+.m-input:focus{
+    border-color: #019160;
+}
+.m-input-error:focus{
+    border-color: #FF4747;
+}
+.m-input-error{
+    border-color: #FF4747;
+
+}
+.m-input-icon-right{
+    background-position: right 8px center ;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    padding-left: 16px;
+    padding-right: 8px;
+}
+.m-input-icon-right-delete{
+    background-image: url(../../assets/icon/x.svg);
+    color: #bbb;
+}
+.m-input-icon-left{
+    background-position: left 8px center ;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    padding-left: 40px;
+    padding-right: 8px;
+}
+.m-input-icon-left-search{
+    background-image: url(../../assets/icon/search.png);
+}

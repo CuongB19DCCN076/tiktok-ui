@@ -1,0 +1,59 @@
+.m-paging{
+    display: flex;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    width: 100%;
+    position: relative;
+}
+
+.m-paging .m-btn-paging{
+    border: none;
+}
+.m-paging .m-btn-paging:hover{
+    background-color: #fff;
+}
+.m-paging-center{
+    display: flex;
+    gap: 16px;
+}
+.m-page-number-group{
+    display: flex;
+    gap: 6px;
+}
+
+.m-paging-center button{
+    width: 24px;
+    height: 24px;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bbb;
+    background-color: transparent;
+}
+
+.m-paging-center .m-page-number-group .m-page-number{
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.m-paging-center .m-page-number-group .m-page-number:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.m-page-number.active{
+    background-color: #019160;
+    color: #fff;
+}
+
+.m-paging .m-paging-left{
+    position: absolute;
+    left: 0;
+}
+.m-paging .m-paging-right{
+    position: absolute;
+    right: 0;
+}
