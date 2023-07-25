@@ -1,0 +1,14 @@
+@import url(/css/layout/content.css);
+@import url(/css/layout/header.css);
+@import url(/css/layout/navbar.css);
+
+body{
+    margin: 0;
+}
+.main{
+    height: calc(100vh - 48px);
+    width: 100%;
+    display: flex;
+
+}
+

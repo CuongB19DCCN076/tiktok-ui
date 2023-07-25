@@ -1,0 +1,49 @@
+.page-content{
+    width: 100%;
+    padding: 12px;
+    position: relative;
+}
+.page-content .page-header{
+    display: flex;
+    height: 48px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-content .page-header .page-header-title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.toolbar-right{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+}
+
+.toolbar-right:hover{
+    background-color: #c3c0c0;
+}
+
+.page-toolbar{
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    height: 48px;
+    
+}
+
+.page-grid{
+    width: 100%;
+    height: calc(100% - 96px);
+    flex-shrink: 0;
+}

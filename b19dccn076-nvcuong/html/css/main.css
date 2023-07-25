@@ -1,0 +1,70 @@
+@import url("/css/components/button.css");
+@import url("/css/components/input.css");
+@import url("/css/components/toast.css");
+@import url("/css/components/label.css");
+@import url("/css/components/table.css");
+@import url("/css/components/paging.css");
+@import url("/css/components/dialog.css");
+@import url("/css/components/combobox.css");
+@import url("/css/components/option.css");
+@import url("/css/components/loading.css");
+@import url(/css/page/employee.css);
+@import url(/Resource/font/fontawesome-5.15.1/css/all.min.css);
+@import url(/Resource/font/fontawesome-5.15.1/js/all.min.js);
+body {
+    font-family: GoogleSands;
+}
+
+@font-face {
+    font-family: GoogleSands;
+    src: url("../Resource/font/GoogleSans-Regular.otf");
+}
+@font-face {
+    font-family: GoogleSands Bold;
+    src: url("../Resource/font/GoogleSans-Bold.otf");
+}
+@font-face {
+    font-family: GoogleSands Italic;
+    src: url("../Resource/font/GoogleSans-Italic.otf");
+}
+
+.m-row{
+    width: 100%;
+    margin: 4px;
+}
+.m-icon-24{
+    width: 24px;
+    height: 24px;
+}
+
+.menu-icon-dashboard{
+    background-image: url(/Resource/icon/dashboard.png);
+}
+
+.menu-icon-report{
+    background-image: url(/Resource/icon/report.png);
+}
+
+.menu-icon-employee{
+    background-image: url(/Resource/icon/dic-employee.png);
+}
+
+.menu-icon-setting{
+    background-image: url(/Resource/icon/setting.png);
+}
+
+.toolbar-icon-refesh{
+    background-image: url(/Resource/icon/refresh.png);
+}
+.test1{
+    height: 10000px;
+}
+.test{
+    height: calc(100% - 56px);
+    overflow: auto;
+}
+
+.test2{
+    height: 100px;
+    overflow: scroll;
+}
